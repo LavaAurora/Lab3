@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Client.cs" />
+    <Compile Include="Class\Factory\FabriqueAbstraite.cs" />
+    <Compile Include="Class\Factory\FabriqueGenerique.cs" />
+    <Compile Include="Class\Factory\FabriqueNonGenerique.cs" />
+    <Compile Include="Class\Med\MedGeneriqueA.cs" />
+    <Compile Include="Class\Med\MedGeneriqueB.cs" />
+    <Compile Include="Class\Med\MedNonGeneriqueA.cs" />
+    <Compile Include="Class\Med\MedB.cs" />
+    <Compile Include="Class\Med\MedA.cs" />
+    <Compile Include="Class\Med\MedNonGeneriqueB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
