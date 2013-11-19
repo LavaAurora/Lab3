@@ -7,8 +7,13 @@ namespace _1_Fabrique
 {
     public class Client
     {
-        private MedXFactory factory = new MedXFactory();
+        private MedXFactory factory;
         private Medicament med;
+
+        public Client()
+        {
+            this.factory = new MedXFactory();
+        }
 
         public MedXFactory Factory
         {
